@@ -1,0 +1,66 @@
+.Card {
+  display: flex;
+  max-width: 740px;
+  margin: 16px 16px 0 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ImageContent {
+  width: 185px;
+  height: 278px;
+}
+
+.ImageContent a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.InfoContent {
+  padding: 10px;
+  position: relative;
+}
+
+.FilmHeader {
+  display: flex;
+  align-items: center;
+}
+
+.FilmTitle {
+  margin-left: 10px;
+}
+
+.FilmTitleName,
+.FilmTitleName {
+  display: block;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.FilmTitleName {
+  font-size: 18px;
+  color: #000000;
+}
+
+.FilmDateAppearence {
+  font-size: 16px;
+  color: rgba(0,0,0,.6);
+}
+
+.FilmOverview {
+  margin-top: 30px;
+}
+
+.FilmOverview p {
+  font-size: 14px;
+  color: rgba(77, 77, 77, 1);
+}
+
+.MoreInfo {
+  width: 100%;
+  padding: 16px;
+  border-top: 1px solid #e3e3e3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
