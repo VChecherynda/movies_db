@@ -1,8 +1,8 @@
 import { call, all } from 'redux-saga/effects';
-import { addFilmsData } from './filmsSaga/addFilmsSaga';
+import { filmsWatcher } from './filmsSaga';
 
-export default function* rootSaga(getState) {
+export default function* rootSaga() {
   yield all([
-    call(addFilmsData),
+    call(filmsWatcher),
   ])
 }

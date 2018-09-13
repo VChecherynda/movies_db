@@ -2,9 +2,7 @@ import React from 'react';
 
 import classes from './Header.css';
 
-import logo from '../../assets/img/greenAppIcon.svg';
-
-console.log(classes);
+import logo from '../../Assets/img/greenAppIcon.svg';
 
 const header = (props) => {
   return (

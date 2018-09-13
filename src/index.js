@@ -4,9 +4,9 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import createSagaMiddleware from 'redux-saga'
 
-import rootSaga from './sagas/rootSaga'
-import rootReducer from './store/rootReducer';
-import App from './containers/App';
+import rootSaga from './Sagas/rootSaga'
+import rootReducer from './Reducers/rootReducer';
+import App from './Containers/Layout';
 import registerServiceWorker from './registerServiceWorker';
 
 const sagaMiddleware = createSagaMiddleware();
