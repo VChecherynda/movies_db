@@ -3,13 +3,13 @@ import {
 } from '../Actions'
 
 const initialState = {
-  films: {},
+  favourite: {},
 }
 
 export default function filmsReducer(state = initialState, action) {
   switch (action.type) {
     case FETCH_FILMS_SUCCESS:
-      return { ...state, films: action.payload }
+      return { ...state, favourite: action.payload }
     default:
       return state;
   }

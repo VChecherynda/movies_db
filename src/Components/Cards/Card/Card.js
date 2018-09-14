@@ -17,7 +17,7 @@ const card = (props) => {
       <div className={classes.InfoContent}>
 
         <div className={classes.FilmHeader}>
-          <div className={classes.FilmRating}>{props.vote_average * 10}%</div>
+          <div className={classes.FilmRating}>{(props.vote_average * 10).toFixed(0)}%</div>
 
           <div className={classes.FilmTitle}>
             <span className={classes.FilmTitleName}>{props.title}</span>

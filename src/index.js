@@ -6,7 +6,7 @@ import createSagaMiddleware from 'redux-saga'
 
 import rootSaga from './Sagas/rootSaga'
 import rootReducer from './Reducers/rootReducer';
-import App from './Containers/Layout';
+import App from './Containers/ListOfFilms';
 import registerServiceWorker from './registerServiceWorker';
 
 const sagaMiddleware = createSagaMiddleware();
